@@ -106,16 +106,16 @@ analytics:
 author:
   name             : "Chiara Calascibetta"
   avatar           : "/assets/images/Chiara.png"
-  #bio             : "Postdoctoral Researcher"
-  location         : "Centre Inria <br> d'Université Côte d'Azur"
+  bio             : "Postdoctoral Researcher"
+  location         : "Centre Inria d'Université Côte d'Azur"
   email            : "chiara.calascibetta@inria.fr"
   links:
     
     - label: "Curriculum Vitae"
-      icon: "fas fa-fw fa-file-alt"
-      url: "/assets/images/CV_calascibetta.pdf"
+      icon: "fas fa-fw fa-link"
+      url: "/assets/images/Calascibetta_CV.pdf"
     - label: "Google Scholar"
-      icon: "fab fa-google"
+      icon: "fas fa-fw fa-link"
       url: "https://scholar.google.com/citations?user=f4f2wRAAAAAJ&hl=en"
     - label: "X"
       icon: "fab fa-fw fa-twitter-square"
@@ -197,7 +197,7 @@ incremental: false
 
 
 # Markdown Processing
-kramdown:
+kramdon:
   input: GFM
   hard_wrap: false
   auto_ids: true
