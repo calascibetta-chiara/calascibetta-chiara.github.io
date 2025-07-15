@@ -21,8 +21,8 @@ title_separator          : "-"
 subtitle                 : "Updated July 2025"
 name                     : "Chiara Calascibetta"
 description              : "My personal website."
-url                      : "https://calascibetta-chiara.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+url                      : "https://www-sop.inria.fr" #"https://calascibetta-chiara.github.io"
+baseurl                  : "/members/Chiara.Calascibetta" # the subpath of your site, e.g. "/blog"
 repository               : calascibetta-chiara/calascibetta-chiara.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -58,7 +58,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : true # true, false (default)
+  hide                   : # true, false (default)
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -113,7 +113,7 @@ author:
     
     - label: "Curriculum Vitae"
       icon: "fas fa-fw fa-file-alt"
-      url: "/assets/images/CV_calascibetta.pdf"
+      url: "/members/Chiara.Calascibetta/assets/images/CV_calascibetta.pdf"
     - label: "Google Scholar"
       icon: "fab fa-google"
       url: "https://scholar.google.com/citations?user=f4f2wRAAAAAJ&hl=en"
@@ -128,15 +128,27 @@ author:
       # url: "https://instagram.com/"
 
 # Site Footer
-#footer:
-#  links:
-#    - label: "LinkedIn"
-#      icon: "fab fa-linkedin"
-#      #url: "https://www.linkedin.com/in/your-profile/"
-      
-#    - label: "Bluesky"
-#      icon: "fas fa-cloud" # Bluesky doesn't have an official icon yet; use a cloud or link
-#      #url: "https://bsky.app/profile/yourname.bsky.social"
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url:
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      # url:
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      # url:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url:
+
 
 # Reading Files
 include:
@@ -265,12 +277,6 @@ compress_html:
 
 # Defaults
 defaults:
-  # Apply to everything		
-  - scope:
-      path: ""
-    values:
-      custom_css: assets/css/custom.css
-
   # _posts
   - scope:
       path: ""
@@ -282,7 +288,6 @@ defaults:
       comments: # true
       share: true
       related: true
-      custom_css: assets/css/custom.css
 
   # _pages
   - scope:

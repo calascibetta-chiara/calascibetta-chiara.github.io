@@ -7,3 +7,48 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* ----------------------------------- */
+/* Your custom styles below this line */
+/* ----------------------------------- */
+
+
+/* Footer container background */
+.page__footer {
+  background-color: #c5bfb5; /* your dove/terracotta color */
+  padding: 0.5rem 0; 
+  text-align: center; /* center align all footer text */
+  font-size: 0.8rem; /* smaller footer text */
+}
+
+/* FOLLOW: style */
+.page__footer-follow {
+  margin-bottom: 0.25rem;
+}
+
+.page__footer-follow strong {
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+/* Links inline with icons */
+.page__footer-follow a {
+  color: #ffffff !important; /* or #000 if your footer is light */
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.page__footer-follow a:hover {
+  text-decoration: underline;
+}
+
+.page__footer-follow i {
+  margin-right: 0.25rem; /* little gap between icon and text */
+}
+
+/* Copyright line */
+.page__footer-copyright {
+    color: #ffffff !important;
+    margin: 0;  /* remove default margin */
+    line-height: 1.2; /* tighter lines if needed */
+}
