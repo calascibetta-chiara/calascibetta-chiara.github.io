@@ -12,6 +12,10 @@ search: false
 /* Your custom styles below this line */
 /* ----------------------------------- */
 
+.page {
+  max-width: 1100px;
+  
+}
 
 /* Footer container background */
 .page__footer {
@@ -51,4 +55,65 @@ search: false
     color: #ffffff !important;
     margin: 0;  /* remove default margin */
     line-height: 1.2; /* tighter lines if needed */
+}
+
+/* Hide the footer Previous/Next nav block completely */
+.page__footer-nav {
+  display: none !important;
+}
+
+
+/* block I created for figure + text */
+.activity-block {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.activity-image {
+  #flex-shrink: 0;
+  #flex: 1 1 300px;
+  flex: 0 0 300px; /* fixed width */
+}
+
+.activity-image img {
+  width: 100%;
+  max-width: 400px; /* or 100% */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.activity-text {
+    #flex: 1;
+  flex: 1 1 auto;  /* allow it to grow */
+  max-width: 100%; /* no artificial constraint */
+  #min-width: 320px;
+}
+
+.activity-text h3 {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .activity-block {
+    flex-direction: column;
+  }
+
+  .activity-image {
+    flex: none;
+    width: 100%;
+  }
+  
+  .activity-image img {
+    width: 100%;
+  }
+}
+
+.page__content a {
+  color: #2596be;
 }

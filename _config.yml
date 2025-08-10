@@ -291,3 +291,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
