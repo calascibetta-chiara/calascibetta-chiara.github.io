@@ -17,7 +17,7 @@ next: false
   <!-- Text on the left -->
   <div style="flex: 1;">
     <p style="text-align: justify; font-size: 0.95rem;">
-      Jan. 2025 <strong>
+      2025 <strong>
       <a href="https://news.socint.org/socint-g-research-la-ricerca-incontra-il-futuro/">
         PhD Thesis Prize 2024/2025 @SOCINT (Italian Society for Intelligence) and @G-Research
       </a></strong><br>
@@ -44,7 +44,7 @@ July 2024 - Dec. 2024 **Research Fellowship** funded by **MUR** under the progra
   <!-- Text on the left -->
   <div style="flex: 1;">
     <p style="text-align: justify; font-size: 0.95rem;">
-      Sept. 2023  <strong>
+      2023  <strong>
       <a href="https://euromech.org/prizes/young">
         Euromech Young Scientist Prize at the 18th European Turbulence Conference (ETC18).
       </a></strong><br>
@@ -64,7 +64,7 @@ July 2024 - Dec. 2024 **Research Fellowship** funded by **MUR** under the progra
   <!-- Text on the left -->
   <div style="flex: 1;">
     <p style="text-align: justify; font-size: 0.95rem;">
-      Oct. 2022  <strong>
+      2022  <strong>
       <a href="https://www.ggi.infn.it/showevent.pl?id=450">
         National Award Milla Baldo Ceolin 2021 “Women in Theoretical Physics by INFN (Italy). 
       </a></strong><br>
@@ -81,7 +81,7 @@ July 2024 - Dec. 2024 **Research Fellowship** funded by **MUR** under the progra
 ---
 
 {: style="text-align: justify;"}
-March 2021 - Oct. 2021 **Fellowship “Enrico Persico” 2021 - Accademia Nazionale dei Lincei** (Italy).<br>
+2021 **Fellowship “Enrico Persico” 2021 - Accademia Nazionale dei Lincei** (Italy).<br>
       	     	      <small> Motivation: *among the best undergraduate students in physics in Rome (*1st classified*).*<small>
 
 ---
