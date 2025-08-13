@@ -1,0 +1,12 @@
+
+body {
+  background-color: #b0e0e6; /* Powder Blue */
+}
+
+h1 {
+  color: red;
+}
+
+.page__footer-nav {
+  display: none !important;
+}

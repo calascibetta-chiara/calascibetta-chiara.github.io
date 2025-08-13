@@ -42,10 +42,10 @@ next: false
     <p style="text-align: justify; font-size: 0.95rem;">
        <strong>
       <a href="https://smart-turb.roma2.infn.it/init/routes/#/logging/view_dataset/11/tabmeta">
-	TURB-Scalar. 
+	TURB-Scalar. A large database of passive scalar fields advected by 2D naver-Stokes turbulence. 
       </a></strong><br>
       <strong>C. Calascibetta</strong>, L. Biferale, F. Bonaccorso and M. Cencini. <br>
-      (data will appear soon). 
+      (data and preprint will appear soon). 
     </p>
   </div>
 

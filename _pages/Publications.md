@@ -3,10 +3,13 @@ layout: single
 title: "Publications"
 permalink: /Publications/
 #header:
-#    overlay_image: /assets/images/Papers2.png
+#    overlay_image: /assets/images/banner3_thesis.png
 author_profile: true
 classes: wide
 ---
+
+{: style="text-align: justify;"}
+
 ### Preprints
 {: style="text-align: justify;"}	
 [Hidden symmetry in passive scalar advected by 2D Navier-Stokes turbulence](https://arxiv.org/pdf/2504.11616)<br />
