@@ -17,7 +17,6 @@ search: false
   
 }
 
-
 /* Footer container background */
 .page__footer {
   background-color: #2596be; /* your dove/terracotta color */
@@ -117,4 +116,50 @@ search: false
 
 .page__content a {
   color: #2596be;
+}
+
+
+
+/* Make the whole header a solid color */
+.masthead {
+  background: #2596be;            /* your blue */
+  border: 0;
+  box-shadow: none;
+}
+
+/* Remove the white rounded rectangle behind the menu */
+.masthead__inner-wrap,
+.greedy-nav {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Keep things flush (optional) */
+.masthead__inner-wrap {
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  border: 0;
+}
+
+/* Make all header links (including your name) white */
+.masthead .site-title,
+.greedy-nav a {
+  color: #fff !important;
+}
+
+/* Hover color for links in the header (terracotta) */
+.greedy-nav a:hover,
+.masthead .site-title:hover {
+  color: #000 !important;      /* terracotta-ish */
+}
+
+/* Ensure the site title is visible (some skins shrink/hide it) */
+.greedy-nav .site-title {
+  display: inline-block !important;
+  margin-right: 1rem;
+}
+
+/* Optional: center the menu while keeping the title on the left */
+.greedy-nav .visible-links {
+  align-items: center;
 }

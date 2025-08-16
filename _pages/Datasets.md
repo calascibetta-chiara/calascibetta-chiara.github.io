@@ -30,7 +30,7 @@ next: false
 
   <!-- Image on the right -->
   <div style="flex: 0 0 300px;">
-    <img src="/assets/images/TURB-Lagr.png" alt="Dataset Image" style="max-width: 100%; height: auto; border-radius: 8px;">
+    <img src="{{ '/assets/images/TURB-Lagr.png' | relative_url }}" alt="Dataset Image" style="max-width: 100%; height: auto; border-radius: 8px;">
   </div>
 </div>
 
@@ -51,7 +51,7 @@ next: false
 
   <!-- Image on the right -->
   <div style="flex: 0 0 300px;">
-    <img src="/assets/images/TURB-Scalar.png" alt="Dataset Image" style="max-width: 100%; height: auto; border-radius: 8px;">
+    <img src="{{'/assets/images/TURB-Scalar.png' | relative_url }}" alt="Dataset Image" style="max-width: 100%; height: auto; border-radius: 8px;">
   </div>
 </div>
 

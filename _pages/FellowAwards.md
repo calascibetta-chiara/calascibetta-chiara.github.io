@@ -29,7 +29,7 @@ next: false
 
   <!-- Image on the right -->
   <div style="flex: 0 0 300px;">
-    <img src="/assets/images/Socint.jpg" alt="Prize Image" style="max-width: 100%; height: auto; border-radius: 8px;">
+    <img src="{{ '/assets/images/Socint.jpg' | relative_url }}" alt="Prize Image" style="max-width: 100%; height: auto; border-radius: 8px;">
   </div>
 </div>
 
@@ -55,7 +55,7 @@ July 2024 - Dec. 2024 **Research Fellowship** funded by **MUR** under the progra
   </div>
   <!-- Image on the right -->
   <div style="flex: 0 0 300px;">
-    <img src="/assets/images/Euromech.jpeg" alt="Prize Image" style="max-width: 100%; height: auto; border-radius: 8px;">
+    <img src="{{ '/assets/images/Euromech.jpeg' | relative_url}} " alt="Prize Image" style="max-width: 100%; height: auto; border-radius: 8px;">
   </div>
 </div>
 ---
@@ -75,7 +75,7 @@ July 2024 - Dec. 2024 **Research Fellowship** funded by **MUR** under the progra
   </div>
   <!-- Image on the right -->
   <div style="flex: 0 0 300px;">
-    <img src="/assets/images/MillaBaldoCeolin.jpg" alt="Prize Image" style="max-width: 100%; height: auto; border-radius: 8px;">
+    <img src="{{ '/assets/images/MillaBaldoCeolin.jpg' | relative_url }}" alt="Prize Image" style="max-width: 100%; height: auto; border-radius: 8px;">
   </div>
 </div>
 ---

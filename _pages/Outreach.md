@@ -15,7 +15,7 @@ next: false
 ---
 <div class="activity-block">
   <div class="activity-image">
-    <img src="/assets/images/NatureBlog.png" alt="">
+    <img src=" {{ '/assets/images/NatureBlog.png' | relative_url }}" alt="">
   </div>
   <div class="activity-text">
     <h3>Nature Blog (behind the paper)</h3>
@@ -28,7 +28,7 @@ next: false
 
 <div class="activity-block">
   <div class="activity-image">
-    <img src="/assets/images/Aquila.png" alt="Science Festival 2023">
+    <img src="{{ '/assets/images/Aquila.png' | relative_url }}" alt="Science Festival 2023">
   </div>
   <div class="activity-text">
     <h3>🎓 Improbable Research - SHARPER & European Researcher Night </h3>
