@@ -42,10 +42,11 @@ next: false
     <p style="text-align: justify; font-size: 0.95rem;">
        <strong>
       <a href="https://smart-turb.roma2.infn.it/init/routes/#/logging/view_dataset/11/tabmeta">
-	TURB-Scalar. A large database of passive scalar fields advected by 2D naver-Stokes turbulence. 
+	TURB-Scalar. A large database of passive scalar fields advected by 2D Navier-Stokes in the turbulent inverse cascade regime. 
       </a></strong><br>
       <strong>C. Calascibetta</strong>, L. Biferale, F. Bonaccorso and M. Cencini. <br>
-      (data and preprint will appear soon). 
+      Data are free downloadable. If you use the data please cite:
+      <a href="https://arxiv.org/abs/2508.12762">arXiv:2508.12762 (2025)</a>
     </p>
   </div>
 
