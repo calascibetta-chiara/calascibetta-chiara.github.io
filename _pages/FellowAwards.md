@@ -82,13 +82,13 @@ July 2024 - Dec. 2024 **Research Fellowship** funded by **MUR** under the progra
 
 {: style="text-align: justify;"}
 2021 **Fellowship “Enrico Persico” 2021 - Accademia Nazionale dei Lincei** (Italy).<br>
-      	     	      <small> Motivation: *among the best undergraduate students in physics in Rome (*1st classified*).*<small>
+      	     	      <small> Motivation: *among the best undergraduate students in physics in Rome (*1st ranked*).*<small>
 
 ---
 
 {: style="text-align: justify;"}
-2017-2020	      **Deserving Student Award**, a.y. 2017/18, 2018/19, 2019/20.<br>
-		      <small>Motivation: *1st classified among all students enrolled in the bachelor/master’s degree in physics at the University of Rome Tor Vergata.*<small>
+2017-2020	      **Student Award**, a.y. 2017/18, 2018/19, 2019/20.<br>
+		      <small>Motivation: *1st ranked among all students enrolled in the bachelor/master’s degree in physics at the University of Rome Tor Vergata.*<small>
 
 ---
 
